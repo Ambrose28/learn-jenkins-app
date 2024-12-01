@@ -5,6 +5,10 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
+                whoami
+                pwd
+                touch broseman
+                ls
             }
         }
     }
